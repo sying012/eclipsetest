@@ -64,7 +64,7 @@ public class BoardController {
 		Board board = boardService.getBoard(boardSeq);
 		List<BoardFile> fileList = boardService.getBoardFileList(boardSeq);
 		
-		mv.addObject("board", board);
+		mv.addObject("board", board); oh
 		mv.addObject("fileList", fileList);
 		
 		return mv;

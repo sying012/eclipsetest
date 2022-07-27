@@ -75,6 +75,8 @@ public class BoardController {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("board/insertBoard.html");
 		
+		mv.setViewName("board/insertBoard.html");
+		
 		return mv;
 	}
 	
